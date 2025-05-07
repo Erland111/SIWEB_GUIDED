@@ -1,3 +1,3 @@
 export default function Page() {
-    return <p>Dashboardss Page 2256</p>;
+    return <p>Dashboardss Page NPM : 2256</p>;
   }
