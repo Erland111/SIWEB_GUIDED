@@ -1,3 +1,3 @@
 export default function EditInvoicePage() {
-  return <div>Edit Invoice</div>
+  return <div>Edit Invoice</div>;
 }
