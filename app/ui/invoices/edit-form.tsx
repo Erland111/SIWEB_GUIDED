@@ -1,7 +1,7 @@
 'use client';
 
 import { CustomerField, InvoiceForm } from '@/app/lib/definitions';
-import { updateInvoice } from '@/app/lib/actions'; // ✅ tambahkan ini
+import { updateInvoice } from '@/app/lib/action'; // ✅ tambahkan ini
 import {
   CheckIcon,
   ClockIcon,
