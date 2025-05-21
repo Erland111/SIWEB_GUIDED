@@ -30,12 +30,12 @@ export type Invoice = {
   id: string; // ID unik untuk setiap faktur
   customer_id: string; // ID pelanggan yang terkait dengan faktur
   amount: number; // Jumlah total dalam faktur
+  status: 'pending' | 'paid';
   date: string; // Tanggal pembuatan faktur
 
   // Dalam TypeScript, ini disebut sebagai "string union type".
   // Artinya, properti "status" hanya bisa memiliki salah satu dari dua nilai:
   // 'pending' (belum dibayar) atau 'paid' (sudah dibayar).
-  status: 'pending' | 'paid';
 };
 
 
