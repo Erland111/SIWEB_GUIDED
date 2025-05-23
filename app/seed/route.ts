@@ -24,8 +24,7 @@ async function seedUsers() {
         ON CONFLICT (id) DO NOTHING;
       `;
     }),
-  );
-
+  
   return insertedUsers;
 }
 
